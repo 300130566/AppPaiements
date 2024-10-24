@@ -18,5 +18,13 @@ internal class Program
         payment1.AfficherDetails();
         payment2.AfficherDetails();
 
+        Utilisateur user = new Utilisateur("Chefik Sadissou");
+        user.AjouterPaiement(achat1);
+        user.AjouterPaiement(achat2);
+        user.AjouterPaiement(achat3);
+        user.AjouterPaiement(payment1);
+        user.AjouterPaiement(payment2);
+
+        user.AfficherInfos(); 
     }
 }
