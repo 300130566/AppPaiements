@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace ConsoleAppPaiements
 {
+<<<<<<< HEAD
     public class Utilisateur
+=======
+   public class Utilisateur
+>>>>>>> origin/main
     {
         public string Nom { get; set; }
         public List<Paiement> Paiements { get; set; }
@@ -24,6 +28,10 @@ namespace ConsoleAppPaiements
             {
                 paiement.AfficherDetails();
             }
+<<<<<<< HEAD
+=======
+            
+>>>>>>> origin/main
         }
 
         public void AjouterPaiement(Paiement paiement)
